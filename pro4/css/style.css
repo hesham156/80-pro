@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    transition: all 0.4 ease-in-out;
+}
+body{
+    background: #f6f7fb !important;
+
+}
+p{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    margin: 10px 30px;
+    cursor: pointer;
+    background: white;
+    border: 2px solid #e0e0e0;
+
+}
+.elm{
+    position: relative;
+
+}
+.elm:not(.four):before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    top: 20px;
+    left: 54px;
+    z-index: -1;
+    background: #e0e0e0;
+
+}
+
+.active:not(.four):after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    height: 2px;
+    background: #3498db;
+    left:54px;
+    width: 10px;
+
+
+}
+.active.one::after{
+    width: 10px;
+}
+.active p{
+    border-color:#3498db !important;
+    
+}
