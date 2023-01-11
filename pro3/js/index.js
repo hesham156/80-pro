@@ -1,12 +1,12 @@
-var sounds = ['../sound/01 - JavaScript Drum Kit_sounds_boom.wav',
-'../sound/01 - JavaScript Drum Kit_sounds_clap.wav',
-'../sound/01 - JavaScript Drum Kit_sounds_hihat.wav',
-'../sound/01 - JavaScript Drum Kit_sounds_kick.wav',
-'../sound/01 - JavaScript Drum Kit_sounds_openhat.wav',
-'../sound/01 - JavaScript Drum Kit_sounds_ride.wav',
-'../sound/01 - JavaScript Drum Kit_sounds_tink (1).wav',
-'../sound/01 - JavaScript Drum Kit_sounds_snare.wav',
-'../sound/01 - JavaScript Drum Kit_sounds_tom.wav'
+var sounds = ['../pro3/sound/01 - JavaScript Drum Kit_sounds_boom.wav',
+'../pro3/sound/01 - JavaScript Drum Kit_sounds_clap.wav',
+'../pro3/sound/01 - JavaScript Drum Kit_sounds_hihat.wav',
+'../pro3/sound/01 - JavaScript Drum Kit_sounds_kick.wav',
+'../pro3/sound/01 - JavaScript Drum Kit_sounds_openhat.wav',
+'../pro3/sound/01 - JavaScript Drum Kit_sounds_ride.wav',
+'../pro3/sound/01 - JavaScript Drum Kit_sounds_tink (1).wav',
+'../pro3/sound/01 - JavaScript Drum Kit_sounds_snare.wav',
+'../pro3/sound/01 - JavaScript Drum Kit_sounds_tom.wav'
 ]
 function playSound(src){
    var aud = new Audio(src)
